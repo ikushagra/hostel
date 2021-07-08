@@ -1,0 +1,52 @@
+.homepage {
+    height: 100%;
+    width: 100%;
+
+    box-sizing: border-box;
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/42/05/09/the-hosteller.jpg?w=900&h=-1&s=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.homepage-image{
+    height: 100%;
+    width: 100%;
+}
+.book-now-box-container{
+    border: 2px solid #ffe700;
+    border-radius: 5px;
+    height: 423.13px;
+    width: 425px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-city-option{
+    width: 70%;
+    height: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.book-now-btn{
+    height: 50px;
+    width: 60%;
+    background: #ffe700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.5s;
+
+}
+
+.book-now-btn:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}

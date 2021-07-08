@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.app{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  height: 10%;
+  width: 100%;
+  /* border: solid yellow; */
+  background: rgb(29 29 29);
+  /* display: inline-block; */
   display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   align-items: center;
+  position: fixed;
+
+}
+.logo-container{
+height: 100%;
+    width: 50%;
+    /* border: solid pink; */
+    /* display: inline-block; */
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.logo{
+  height: 50%;
+  width: 42%;
+  cursor: pointer;
+  margin-left: 30px;
+
+}
+.nav-links-container{
+  height: 100%;
+  width: 100%;
+  /* border: solid blue; */
+  /* display: inline-block; */
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-media-container{
+  height: 100%;
+  width: 50%;
+  /* border: solid yellow; */
+  background: rgb(29 29 29);
+  /* display: inline-block; */
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.homepage-wallpaper-container {
+  height: 100%;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.featured-wrapper{
+  background: #333333;
+  height: 40%;
+  
+
+}
+.footer{
+  /* border: solid green; */
+  height: 30%;
+  box-sizing: border-box;
+}
+.copyright-quote,.footer-contact-icons{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* border: solid; */
+  height: 50%;
+  box-sizing: border-box;
+}
+.copyright-quote{
+  align-items: flex-end;
+}
+.footer-contact-icons{
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-icon{
+  height: 5%;
+  width: 5%;
+  color: #0a0a0a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-icon :hover{
+  color: yellow;
+}
+
+.footer-link-logo{
+  height: 20px;
+  width: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #EFEFEF;
+}
+.contact-wrapper{
+  background: #eaeaea;
+
 }

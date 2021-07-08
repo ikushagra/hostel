@@ -1,0 +1,77 @@
+.contact-container{
+    height: 65%;
+    background: #eaeaea;
+    display: flex;
+    padding: 75px 90px 75px 90px;
+    margin: 0 7.500px 0 7.500px;
+}
+.contact-container > div{
+    margin-right: 25px;
+}
+.contact-logo{
+    padding-bottom: 20px;
+}
+.contact-logo > img{
+    margin-bottom: 15px;
+}
+.about-para > p{
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+.sign-up > h4, .recent-posts > h4, .quick-links > h4{
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+.sign-up > p{
+    padding-bottom: 20px;
+}
+.sign-up > p > label{
+    display: block;
+}
+.sign-up > p > input{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: #00000009;
+}
+.contact-info{
+    width: 40%;
+}
+.sign-up{
+    width: 20%;
+}
+#sign-up-button{
+    height: 33px;
+    width: 77px;
+    border-radius: 34px;
+    background: #FFE700;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.recent-posts{
+    width: 20%;
+}
+.recent-posts > a{
+    color: #000000;
+    padding: 4px 0;
+    display: block;
+}
+.quick-links{
+    width: 20%;
+}
+.quick-links > a{
+    color: #000000;
+    padding: 4px 0;
+    margin-bottom: 16px;
+    display: block;
+    font-size: 18px;
+}

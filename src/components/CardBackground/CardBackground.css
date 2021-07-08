@@ -1,0 +1,14 @@
+.card-background-container{
+
+    background-color: #ffffff;
+    margin: 10%;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+.heading-of-card-container{
+    margin: 0;
+
+}
+.heading-of-card-container, .description-of-card-container{
+    margin-left: 2%;
+}
