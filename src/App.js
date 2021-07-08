@@ -21,7 +21,7 @@ function App() {
         </span>
         <span className="nav-links-container">
           <a href="https://www.google.com/" rel="noreferrer" target="_blank">
-            ABOUT
+            ABOUT.
           </a>
           {/* <select>
             <option>india</option>
@@ -38,7 +38,7 @@ function App() {
       <div className="homepage-wallpaper-container">
       <Homepage/>
       </div>
-      
+
       <div className="card-Background-wrapper">
       <CardBackground title = "hello" description="doraemon"/>
       </div>
